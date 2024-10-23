@@ -50,7 +50,7 @@ jobs:
           os_swap: "True"
  
      - name: Checkout
-      uses: actions/checkout@main
+       uses: actions/checkout@main
 
     - name: Initialization environment
       env:
