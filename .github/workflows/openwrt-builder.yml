@@ -49,8 +49,8 @@ jobs:
           npm_clean: "True"
           os_swap: "True"
  
-     - name: Checkout
-       uses: actions/checkout@main
+    - name: Checkout
+      uses: actions/checkout@main
 
     - name: Initialization environment
       env:
